@@ -4,14 +4,14 @@
 Vue.component("simple_header_component_1722633013", {
     template: `
     <header id="header-section" class="w-full">
-        <nav id="nav-bar" class="bg-gradient-to-r from-pink-400 to-purple-600 bg-opacity-30 backdrop-filter backdrop-blur-lg py-4 shadow-lg rounded-lg">
-            <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-6 mx-auto">
+        <nav id="nav-bar" class="bg-gradient-to-r from-pink-400 to-purple-600 bg-opacity-30 backdrop-filter backdrop-blur-lg py-6 shadow-lg rounded-lg">
+            <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-8 mx-auto">
                 <a id="logo-link" href="#" class="flex items-center">
-                    <img id="logo-image" src="./images/logo.svg" class="h-8 mr-4 sm:h-10" alt="Landwind Logo" />
-                    <span id="app-name" class="self-center text-2xl font-bold whitespace-nowrap text-white">BlockScan: Blockchain Analytics Platform</span>
+                    <img id="logo-image" src="./images/logo.svg" class="h-10 mr-4 sm:h-12" alt="Landwind Logo" />
+                    <span id="app-name" class="self-center text-3xl font-bold whitespace-nowrap text-white">BlockScan: Blockchain Analytics Platform</span>
                 </a>
                 <div id="menu-toggle-button" class="flex items-center lg:order-2">
-                    <button id="collapse-button" data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-pink-300 hover:bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-white" aria-controls="mobile-menu-2" aria-expanded="false">
+                    <button id="collapse-button" data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-pink-300 hover:bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-white transition-all duration-300" aria-controls="mobile-menu-2" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg id="menu-open-icon" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
